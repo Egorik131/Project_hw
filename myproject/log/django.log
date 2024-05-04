@@ -1,0 +1,351 @@
+INFO 2024-05-04 11:56:03,349 autoreload 4032 32900 Watching for file changes with StatReloader
+INFO 2024-05-04 11:56:06,441 views 4032 37448 Index page accessed
+INFO 2024-05-04 11:56:06,442 basehttp 4032 37448 "GET / HTTP/1.1" 200 10524
+INFO 2024-05-04 11:56:12,995 views 4032 37448 About page accessed
+INFO 2024-05-04 11:56:12,996 basehttp 4032 37448 "GET /about/ HTTP/1.1" 200 2749
+WARNING 2024-05-04 11:56:22,657 log 4032 37448 Not Found: /main/
+WARNING 2024-05-04 11:56:22,657 basehttp 4032 37448 "GET /main/ HTTP/1.1" 404 2423
+WARNING 2024-05-04 12:15:09,192 log 4032 13808 Not Found: /main/
+WARNING 2024-05-04 12:15:09,192 basehttp 4032 13808 "GET /main/ HTTP/1.1" 404 2423
+INFO 2024-05-04 12:15:09,915 autoreload 4032 32900 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\myproject\urls.py changed, reloading.
+INFO 2024-05-04 12:15:10,370 autoreload 18916 37000 Watching for file changes with StatReloader
+WARNING 2024-05-04 12:15:12,737 log 18916 36796 Not Found: /
+WARNING 2024-05-04 12:15:12,739 basehttp 18916 36796 "GET / HTTP/1.1" 404 2167
+WARNING 2024-05-04 12:15:35,283 log 18916 36796 Not Found: /
+WARNING 2024-05-04 12:15:35,284 basehttp 18916 36796 "GET / HTTP/1.1" 404 2167
+INFO 2024-05-04 12:15:35,365 autoreload 18916 37000 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\myproject\urls.py changed, reloading.
+INFO 2024-05-04 12:15:35,861 autoreload 32588 25516 Watching for file changes with StatReloader
+INFO 2024-05-04 12:15:38,120 views 32588 36656 Index page accessed
+INFO 2024-05-04 12:15:38,122 basehttp 32588 36656 "GET / HTTP/1.1" 200 10524
+INFO 2024-05-04 12:20:40,031 views 32588 31608 Index page accessed
+INFO 2024-05-04 12:20:40,031 basehttp 32588 31608 "GET / HTTP/1.1" 200 10524
+INFO 2024-05-04 12:20:40,598 autoreload 32588 25516 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:20:41,054 autoreload 15060 15220 Watching for file changes with StatReloader
+INFO 2024-05-04 12:20:41,422 views 15060 29740 Index page accessed
+INFO 2024-05-04 12:20:41,422 basehttp 15060 29740 "GET / HTTP/1.1" 200 1297
+INFO 2024-05-04 12:21:58,931 views 15060 29740 Index page accessed
+INFO 2024-05-04 12:21:58,932 basehttp 15060 29740 "GET / HTTP/1.1" 200 1297
+INFO 2024-05-04 12:21:58,993 autoreload 15060 15220 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:21:59,481 autoreload 22748 2180 Watching for file changes with StatReloader
+INFO 2024-05-04 12:22:00,787 views 22748 13012 Index page accessed
+INFO 2024-05-04 12:22:00,788 basehttp 22748 13012 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:22:14,847 views 22748 13012 Index page accessed
+INFO 2024-05-04 12:22:14,847 basehttp 22748 13012 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:22:15,259 autoreload 22748 2180 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:22:15,703 autoreload 23468 33668 Watching for file changes with StatReloader
+INFO 2024-05-04 12:22:17,004 views 23468 23072 Index page accessed
+INFO 2024-05-04 12:22:17,005 basehttp 23468 23072 "GET / HTTP/1.1" 200 1273
+INFO 2024-05-04 12:22:58,383 views 23468 23072 Index page accessed
+INFO 2024-05-04 12:22:58,384 basehttp 23468 23072 "GET / HTTP/1.1" 200 1273
+INFO 2024-05-04 12:22:59,071 autoreload 23468 33668 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:22:59,527 autoreload 4684 17388 Watching for file changes with StatReloader
+INFO 2024-05-04 12:23:00,923 views 4684 6336 Index page accessed
+INFO 2024-05-04 12:23:00,924 basehttp 4684 6336 "GET / HTTP/1.1" 200 1254
+INFO 2024-05-04 12:26:00,139 autoreload 4684 17388 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:26:00,603 autoreload 30772 22480 Watching for file changes with StatReloader
+INFO 2024-05-04 12:28:37,518 views 30772 35900 Index page accessed
+INFO 2024-05-04 12:28:37,519 basehttp 30772 35900 "GET / HTTP/1.1" 200 1198
+INFO 2024-05-04 12:28:38,278 autoreload 30772 22480 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:28:38,738 autoreload 10092 7668 Watching for file changes with StatReloader
+INFO 2024-05-04 12:28:40,561 views 10092 13328 About page accessed
+INFO 2024-05-04 12:28:40,562 basehttp 10092 13328 "GET /about/ HTTP/1.1" 200 2749
+WARNING 2024-05-04 12:28:41,569 log 10092 13328 Not Found: /main/
+WARNING 2024-05-04 12:28:41,569 basehttp 10092 13328 "GET /main/ HTTP/1.1" 404 2423
+INFO 2024-05-04 12:31:39,837 autoreload 10092 7668 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:31:40,309 autoreload 22876 21752 Watching for file changes with StatReloader
+WARNING 2024-05-04 12:31:40,645 log 22876 23704 Not Found: /main/
+WARNING 2024-05-04 12:31:40,646 basehttp 22876 23704 "GET /main/ HTTP/1.1" 404 2423
+WARNING 2024-05-04 12:31:42,628 log 22876 23704 Not Found: /main/
+WARNING 2024-05-04 12:31:42,628 basehttp 22876 23704 "GET /main/ HTTP/1.1" 404 2423
+INFO 2024-05-04 12:31:46,304 views 22876 23704 Index page accessed
+INFO 2024-05-04 12:31:46,305 basehttp 22876 23704 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:31:48,890 views 22876 23704 Index page accessed
+INFO 2024-05-04 12:31:48,891 basehttp 22876 23704 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:31:50,217 views 22876 23704 About page accessed
+INFO 2024-05-04 12:31:50,218 basehttp 22876 23704 "GET /about/ HTTP/1.1" 200 2764
+INFO 2024-05-04 12:31:51,275 views 22876 23704 Index page accessed
+INFO 2024-05-04 12:31:51,275 basehttp 22876 23704 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:31:52,805 views 22876 23704 About page accessed
+INFO 2024-05-04 12:31:52,806 basehttp 22876 23704 "GET /about/ HTTP/1.1" 200 2764
+INFO 2024-05-04 12:31:53,526 views 22876 23704 Index page accessed
+INFO 2024-05-04 12:31:53,526 basehttp 22876 23704 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:00,023 autoreload 22876 21752 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:32:00,498 autoreload 36456 20268 Watching for file changes with StatReloader
+INFO 2024-05-04 12:32:00,591 views 36456 16284 About page accessed
+INFO 2024-05-04 12:32:00,592 basehttp 36456 16284 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:32:01,738 views 36456 16284 Index page accessed
+INFO 2024-05-04 12:32:01,739 basehttp 36456 16284 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:02,796 views 36456 16284 About page accessed
+INFO 2024-05-04 12:32:02,797 basehttp 36456 16284 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:32:03,443 views 36456 16284 Index page accessed
+INFO 2024-05-04 12:32:03,443 basehttp 36456 16284 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:04,456 views 36456 16284 Index page accessed
+INFO 2024-05-04 12:32:04,456 basehttp 36456 16284 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:05,974 views 36456 16284 Index page accessed
+INFO 2024-05-04 12:32:05,974 basehttp 36456 16284 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:06,733 views 36456 16284 About page accessed
+INFO 2024-05-04 12:32:06,733 basehttp 36456 16284 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:32:07,557 views 36456 16284 Index page accessed
+INFO 2024-05-04 12:32:07,558 basehttp 36456 16284 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:08,419 views 36456 16284 About page accessed
+INFO 2024-05-04 12:32:08,420 basehttp 36456 16284 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:32:08,924 views 36456 16284 Index page accessed
+INFO 2024-05-04 12:32:08,925 basehttp 36456 16284 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:23,287 autoreload 29692 30708 Watching for file changes with StatReloader
+INFO 2024-05-04 12:32:24,797 views 29692 14396 Index page accessed
+INFO 2024-05-04 12:32:24,798 basehttp 29692 14396 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:26,421 views 29692 14396 About page accessed
+INFO 2024-05-04 12:32:26,421 basehttp 29692 14396 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:32:27,223 views 29692 14396 Index page accessed
+INFO 2024-05-04 12:32:27,224 basehttp 29692 14396 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:28,521 views 29692 14396 About page accessed
+INFO 2024-05-04 12:32:28,522 basehttp 29692 14396 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:32:29,135 views 29692 14396 Index page accessed
+INFO 2024-05-04 12:32:29,136 basehttp 29692 14396 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:29,871 views 29692 14396 About page accessed
+INFO 2024-05-04 12:32:29,872 basehttp 29692 14396 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:32:30,358 views 29692 14396 Index page accessed
+INFO 2024-05-04 12:32:30,359 basehttp 29692 14396 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:31,304 views 29692 14396 About page accessed
+INFO 2024-05-04 12:32:31,304 basehttp 29692 14396 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:32:31,844 views 29692 14396 Index page accessed
+INFO 2024-05-04 12:32:31,845 basehttp 29692 14396 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:36,733 views 29692 14396 About page accessed
+INFO 2024-05-04 12:32:36,733 basehttp 29692 14396 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:32:38,473 views 29692 14396 Index page accessed
+INFO 2024-05-04 12:32:38,474 basehttp 29692 14396 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:40,235 views 29692 14396 About page accessed
+INFO 2024-05-04 12:32:40,236 basehttp 29692 14396 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:32:40,888 views 29692 14396 Index page accessed
+INFO 2024-05-04 12:32:40,889 basehttp 29692 14396 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:41,816 views 29692 14396 Index page accessed
+INFO 2024-05-04 12:32:41,816 basehttp 29692 14396 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:42,319 views 29692 14396 Index page accessed
+INFO 2024-05-04 12:32:42,320 basehttp 29692 14396 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:42,851 views 29692 14396 Index page accessed
+INFO 2024-05-04 12:32:42,851 basehttp 29692 14396 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:43,323 views 29692 14396 Index page accessed
+INFO 2024-05-04 12:32:43,324 basehttp 29692 14396 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:32:44,685 views 29692 14396 About page accessed
+INFO 2024-05-04 12:32:44,685 basehttp 29692 14396 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:33:00,776 views 29692 14396 About page accessed
+INFO 2024-05-04 12:33:00,776 basehttp 29692 14396 "GET /about/ HTTP/1.1" 200 2762
+INFO 2024-05-04 12:33:01,483 autoreload 29692 30708 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:33:01,946 autoreload 26344 5844 Watching for file changes with StatReloader
+INFO 2024-05-04 12:33:02,156 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:02,156 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:03,418 views 26344 18756 About page accessed
+INFO 2024-05-04 12:33:03,419 basehttp 26344 18756 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:04,076 views 26344 18756 About page accessed
+INFO 2024-05-04 12:33:04,076 basehttp 26344 18756 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:04,811 views 26344 18756 About page accessed
+INFO 2024-05-04 12:33:04,811 basehttp 26344 18756 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:05,089 views 26344 18756 About page accessed
+INFO 2024-05-04 12:33:05,089 basehttp 26344 18756 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:05,270 views 26344 18756 About page accessed
+INFO 2024-05-04 12:33:05,271 basehttp 26344 18756 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:05,765 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:05,766 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:06,371 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:06,372 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:06,578 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:06,578 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:06,758 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:06,759 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:07,060 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:07,060 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:07,249 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:07,250 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:07,828 views 26344 18756 About page accessed
+INFO 2024-05-04 12:33:07,829 basehttp 26344 18756 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:08,224 views 26344 18756 About page accessed
+INFO 2024-05-04 12:33:08,224 basehttp 26344 18756 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:08,411 views 26344 18756 About page accessed
+INFO 2024-05-04 12:33:08,411 basehttp 26344 18756 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:08,578 views 26344 18756 About page accessed
+INFO 2024-05-04 12:33:08,579 basehttp 26344 18756 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:08,746 views 26344 18756 About page accessed
+INFO 2024-05-04 12:33:08,747 basehttp 26344 18756 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:09,330 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:09,330 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:09,524 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:09,525 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:09,688 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:09,689 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:09,893 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:09,893 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:10,489 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:10,489 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:24,940 views 26344 18756 Index page accessed
+INFO 2024-05-04 12:33:24,941 basehttp 26344 18756 "GET / HTTP/1.1" 200 1279
+INFO 2024-05-04 12:33:25,729 autoreload 26344 5844 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:33:26,196 autoreload 37528 37584 Watching for file changes with StatReloader
+INFO 2024-05-04 12:33:26,449 views 37528 37456 Index page accessed
+INFO 2024-05-04 12:33:26,450 basehttp 37528 37456 "GET / HTTP/1.1" 200 1278
+INFO 2024-05-04 12:33:28,568 views 37528 37456 About page accessed
+INFO 2024-05-04 12:33:28,569 basehttp 37528 37456 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:32,068 views 37528 37456 About page accessed
+INFO 2024-05-04 12:33:32,069 basehttp 37528 37456 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:35,055 views 37528 37456 Index page accessed
+INFO 2024-05-04 12:33:35,056 basehttp 37528 37456 "GET / HTTP/1.1" 200 1278
+INFO 2024-05-04 12:33:40,609 views 37528 37456 Index page accessed
+INFO 2024-05-04 12:33:40,610 basehttp 37528 37456 "GET / HTTP/1.1" 200 1278
+INFO 2024-05-04 12:33:44,510 views 37528 37456 Index page accessed
+INFO 2024-05-04 12:33:44,511 basehttp 37528 37456 "GET / HTTP/1.1" 200 1278
+INFO 2024-05-04 12:33:47,354 views 37528 37456 About page accessed
+INFO 2024-05-04 12:33:47,355 basehttp 37528 37456 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:33:48,777 views 37528 37456 About page accessed
+INFO 2024-05-04 12:33:48,778 basehttp 37528 37456 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:36:19,072 autoreload 37528 37584 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:36:19,569 autoreload 28944 32236 Watching for file changes with StatReloader
+INFO 2024-05-04 12:39:08,972 views 28944 30148 About page accessed
+INFO 2024-05-04 12:39:08,972 basehttp 28944 30148 "GET /about/ HTTP/1.1" 200 2761
+INFO 2024-05-04 12:39:09,462 autoreload 28944 32236 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:39:09,916 autoreload 27420 32776 Watching for file changes with StatReloader
+INFO 2024-05-04 12:39:11,909 views 27420 33624 Index page accessed
+INFO 2024-05-04 12:39:11,910 basehttp 27420 33624 "GET / HTTP/1.1" 200 1290
+INFO 2024-05-04 12:39:14,619 views 27420 33624 About page accessed
+INFO 2024-05-04 12:39:14,619 basehttp 27420 33624 "GET /about/ HTTP/1.1" 200 2779
+INFO 2024-05-04 12:39:17,620 views 27420 33624 Index page accessed
+INFO 2024-05-04 12:39:17,620 basehttp 27420 33624 "GET / HTTP/1.1" 200 1290
+INFO 2024-05-04 12:39:19,330 views 27420 33624 About page accessed
+INFO 2024-05-04 12:39:19,331 basehttp 27420 33624 "GET /about/ HTTP/1.1" 200 2779
+INFO 2024-05-04 12:39:19,828 views 27420 33624 About page accessed
+INFO 2024-05-04 12:39:19,829 basehttp 27420 33624 "GET /about/ HTTP/1.1" 200 2779
+INFO 2024-05-04 12:39:20,636 views 27420 33624 Index page accessed
+INFO 2024-05-04 12:39:20,637 basehttp 27420 33624 "GET / HTTP/1.1" 200 1290
+INFO 2024-05-04 12:39:21,202 views 27420 33624 Index page accessed
+INFO 2024-05-04 12:39:21,203 basehttp 27420 33624 "GET / HTTP/1.1" 200 1290
+INFO 2024-05-04 12:44:58,546 views 27420 5648 Index page accessed
+INFO 2024-05-04 12:44:58,547 basehttp 27420 5648 "GET / HTTP/1.1" 200 1290
+INFO 2024-05-04 12:44:59,414 autoreload 27420 32776 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:44:59,886 autoreload 30124 2944 Watching for file changes with StatReloader
+INFO 2024-05-04 12:45:03,318 views 30124 18128 Index page accessed
+INFO 2024-05-04 12:45:03,319 basehttp 30124 18128 "GET / HTTP/1.1" 200 1283
+INFO 2024-05-04 12:45:05,631 views 30124 18128 About page accessed
+INFO 2024-05-04 12:45:05,631 basehttp 30124 18128 "GET /about/ HTTP/1.1" 200 1659
+INFO 2024-05-04 12:45:42,188 autoreload 30124 2944 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:45:42,641 autoreload 37752 34896 Watching for file changes with StatReloader
+INFO 2024-05-04 12:47:27,558 views 37752 26556 Index page accessed
+INFO 2024-05-04 12:47:27,559 basehttp 37752 26556 "GET / HTTP/1.1" 200 1283
+INFO 2024-05-04 12:47:28,151 autoreload 37752 34896 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:47:28,626 autoreload 27908 3712 Watching for file changes with StatReloader
+INFO 2024-05-04 12:47:29,930 views 27908 37860 About page accessed
+INFO 2024-05-04 12:47:29,931 basehttp 27908 37860 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:50:53,187 autoreload 27908 3712 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:50:53,642 autoreload 37588 15084 Watching for file changes with StatReloader
+INFO 2024-05-04 12:51:28,483 autoreload 1652 36892 Watching for file changes with StatReloader
+INFO 2024-05-04 12:51:30,889 views 1652 11012 Index page accessed
+INFO 2024-05-04 12:51:30,890 basehttp 1652 11012 "GET / HTTP/1.1" 200 1282
+INFO 2024-05-04 12:51:33,693 views 1652 11012 About page accessed
+INFO 2024-05-04 12:51:33,693 basehttp 1652 11012 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:51:35,050 views 1652 11012 Index page accessed
+INFO 2024-05-04 12:51:35,051 basehttp 1652 11012 "GET / HTTP/1.1" 200 1282
+INFO 2024-05-04 12:51:35,747 views 1652 11012 Index page accessed
+INFO 2024-05-04 12:51:35,747 basehttp 1652 11012 "GET / HTTP/1.1" 200 1282
+INFO 2024-05-04 12:51:36,572 views 1652 11012 About page accessed
+INFO 2024-05-04 12:51:36,573 basehttp 1652 11012 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:51:36,999 views 1652 11012 About page accessed
+INFO 2024-05-04 12:51:37,000 basehttp 1652 11012 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:52:19,065 views 1652 11012 About page accessed
+INFO 2024-05-04 12:52:19,066 basehttp 1652 11012 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:52:19,943 autoreload 1652 36892 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:52:20,391 autoreload 14968 19688 Watching for file changes with StatReloader
+INFO 2024-05-04 12:52:23,628 views 14968 22620 Index page accessed
+INFO 2024-05-04 12:52:23,630 basehttp 14968 22620 "GET / HTTP/1.1" 200 1282
+INFO 2024-05-04 12:52:26,560 views 14968 22620 About page accessed
+INFO 2024-05-04 12:52:26,561 basehttp 14968 22620 "GET /about/ HTTP/1.1" 200 1664
+INFO 2024-05-04 12:52:42,220 views 14968 22620 Index page accessed
+INFO 2024-05-04 12:52:42,221 basehttp 14968 22620 "GET / HTTP/1.1" 200 1282
+INFO 2024-05-04 12:52:43,406 views 14968 22620 About page accessed
+INFO 2024-05-04 12:52:43,407 basehttp 14968 22620 "GET /about/ HTTP/1.1" 200 1664
+INFO 2024-05-04 12:52:44,428 views 14968 22620 Index page accessed
+INFO 2024-05-04 12:52:44,429 basehttp 14968 22620 "GET / HTTP/1.1" 200 1282
+INFO 2024-05-04 12:52:46,786 views 14968 22620 Index page accessed
+INFO 2024-05-04 12:52:46,787 basehttp 14968 22620 "GET / HTTP/1.1" 200 1282
+INFO 2024-05-04 12:52:48,499 views 14968 22620 About page accessed
+INFO 2024-05-04 12:52:48,499 basehttp 14968 22620 "GET /about/ HTTP/1.1" 200 1664
+INFO 2024-05-04 12:52:49,604 views 14968 22620 Index page accessed
+INFO 2024-05-04 12:52:49,605 basehttp 14968 22620 "GET / HTTP/1.1" 200 1282
+INFO 2024-05-04 12:52:50,704 views 14968 22620 About page accessed
+INFO 2024-05-04 12:52:50,704 basehttp 14968 22620 "GET /about/ HTTP/1.1" 200 1664
+INFO 2024-05-04 12:53:46,472 views 14968 22620 About page accessed
+INFO 2024-05-04 12:53:46,472 basehttp 14968 22620 "GET /about/ HTTP/1.1" 200 1664
+INFO 2024-05-04 12:53:46,654 autoreload 14968 19688 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:53:47,125 autoreload 8928 26004 Watching for file changes with StatReloader
+INFO 2024-05-04 12:53:48,121 views 8928 25472 Index page accessed
+INFO 2024-05-04 12:53:48,121 basehttp 8928 25472 "GET / HTTP/1.1" 200 1286
+INFO 2024-05-04 12:53:49,378 views 8928 25472 About page accessed
+INFO 2024-05-04 12:53:49,379 basehttp 8928 25472 "GET /about/ HTTP/1.1" 200 1664
+INFO 2024-05-04 12:53:50,795 views 8928 25472 Index page accessed
+INFO 2024-05-04 12:53:50,795 basehttp 8928 25472 "GET / HTTP/1.1" 200 1286
+INFO 2024-05-04 12:53:53,562 views 8928 25472 About page accessed
+INFO 2024-05-04 12:53:53,563 basehttp 8928 25472 "GET /about/ HTTP/1.1" 200 1664
+INFO 2024-05-04 12:53:55,286 views 8928 25472 Index page accessed
+INFO 2024-05-04 12:53:55,286 basehttp 8928 25472 "GET / HTTP/1.1" 200 1286
+INFO 2024-05-04 12:53:56,509 views 8928 25472 About page accessed
+INFO 2024-05-04 12:53:56,509 basehttp 8928 25472 "GET /about/ HTTP/1.1" 200 1664
+INFO 2024-05-04 12:53:58,032 views 8928 25472 Index page accessed
+INFO 2024-05-04 12:53:58,032 basehttp 8928 25472 "GET / HTTP/1.1" 200 1286
+INFO 2024-05-04 12:54:01,932 views 8928 25472 About page accessed
+INFO 2024-05-04 12:54:01,933 basehttp 8928 25472 "GET /about/ HTTP/1.1" 200 1664
+INFO 2024-05-04 12:54:18,937 views 8928 25472 About page accessed
+INFO 2024-05-04 12:54:18,938 basehttp 8928 25472 "GET /about/ HTTP/1.1" 200 1664
+INFO 2024-05-04 12:54:19,078 autoreload 8928 26004 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:54:19,573 autoreload 35848 22092 Watching for file changes with StatReloader
+INFO 2024-05-04 12:54:20,188 views 35848 37008 About page accessed
+INFO 2024-05-04 12:54:20,189 basehttp 35848 37008 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:54:22,190 views 35848 37008 Index page accessed
+INFO 2024-05-04 12:54:22,191 basehttp 35848 37008 "GET / HTTP/1.1" 200 1286
+INFO 2024-05-04 12:54:22,930 views 35848 37008 About page accessed
+INFO 2024-05-04 12:54:22,931 basehttp 35848 37008 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:54:23,570 views 35848 37008 Index page accessed
+INFO 2024-05-04 12:54:23,570 basehttp 35848 37008 "GET / HTTP/1.1" 200 1286
+INFO 2024-05-04 12:54:24,032 views 35848 37008 Index page accessed
+INFO 2024-05-04 12:54:24,033 basehttp 35848 37008 "GET / HTTP/1.1" 200 1286
+INFO 2024-05-04 12:54:24,695 views 35848 37008 About page accessed
+INFO 2024-05-04 12:54:24,696 basehttp 35848 37008 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:54:25,090 views 35848 37008 About page accessed
+INFO 2024-05-04 12:54:25,090 basehttp 35848 37008 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:54:25,969 views 35848 37008 Index page accessed
+INFO 2024-05-04 12:54:25,970 basehttp 35848 37008 "GET / HTTP/1.1" 200 1286
+INFO 2024-05-04 12:54:26,597 views 35848 37008 Index page accessed
+INFO 2024-05-04 12:54:26,597 basehttp 35848 37008 "GET / HTTP/1.1" 200 1286
+INFO 2024-05-04 12:54:41,918 views 35848 37008 Index page accessed
+INFO 2024-05-04 12:54:41,918 basehttp 35848 37008 "GET / HTTP/1.1" 200 1286
+INFO 2024-05-04 12:54:42,373 autoreload 35848 22092 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:54:42,821 autoreload 36260 14312 Watching for file changes with StatReloader
+INFO 2024-05-04 12:54:48,030 views 36260 33972 About page accessed
+INFO 2024-05-04 12:54:48,030 basehttp 36260 33972 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:54:48,849 views 36260 33972 About page accessed
+INFO 2024-05-04 12:54:48,850 basehttp 36260 33972 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:54:49,424 views 36260 33972 Index page accessed
+INFO 2024-05-04 12:54:49,425 basehttp 36260 33972 "GET / HTTP/1.1" 200 1283
+INFO 2024-05-04 12:54:50,033 views 36260 33972 Index page accessed
+INFO 2024-05-04 12:54:50,034 basehttp 36260 33972 "GET / HTTP/1.1" 200 1283
+INFO 2024-05-04 12:54:50,757 views 36260 33972 About page accessed
+INFO 2024-05-04 12:54:50,758 basehttp 36260 33972 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:55:32,820 views 36260 33972 About page accessed
+INFO 2024-05-04 12:55:32,821 basehttp 36260 33972 "GET /about/ HTTP/1.1" 200 1660
+INFO 2024-05-04 12:55:33,307 autoreload 36260 14312 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:55:33,764 autoreload 1304 10420 Watching for file changes with StatReloader
+INFO 2024-05-04 12:55:34,554 views 1304 24272 Index page accessed
+INFO 2024-05-04 12:55:34,555 basehttp 1304 24272 "GET / HTTP/1.1" 200 1288
+INFO 2024-05-04 12:57:15,175 autoreload 1304 10420 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-04 12:57:15,682 autoreload 31120 35792 Watching for file changes with StatReloader
+INFO 2024-05-04 12:57:45,403 views 31120 12244 Index page accessed
+INFO 2024-05-04 12:57:45,404 basehttp 31120 12244 "GET / HTTP/1.1" 200 1245
+INFO 2024-05-04 12:57:46,866 views 31120 12244 About page accessed
+INFO 2024-05-04 12:57:46,867 basehttp 31120 12244 "GET /about/ HTTP/1.1" 200 1580
+INFO 2024-05-04 12:57:48,170 views 31120 12244 Index page accessed
+INFO 2024-05-04 12:57:48,171 basehttp 31120 12244 "GET / HTTP/1.1" 200 1245
+INFO 2024-05-04 12:57:48,822 views 31120 12244 Index page accessed
+INFO 2024-05-04 12:57:48,823 basehttp 31120 12244 "GET / HTTP/1.1" 200 1245
+INFO 2024-05-04 12:57:49,665 views 31120 12244 About page accessed
+INFO 2024-05-04 12:57:49,665 basehttp 31120 12244 "GET /about/ HTTP/1.1" 200 1580
+INFO 2024-05-04 12:57:50,294 views 31120 12244 About page accessed
+INFO 2024-05-04 12:57:50,294 basehttp 31120 12244 "GET /about/ HTTP/1.1" 200 1580
+INFO 2024-05-04 12:57:51,208 views 31120 12244 About page accessed
+INFO 2024-05-04 12:57:51,208 basehttp 31120 12244 "GET /about/ HTTP/1.1" 200 1580
+INFO 2024-05-04 12:57:52,213 views 31120 12244 Index page accessed
+INFO 2024-05-04 12:57:52,214 basehttp 31120 12244 "GET / HTTP/1.1" 200 1245
