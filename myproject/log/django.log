@@ -349,3 +349,13 @@ INFO 2024-05-04 12:57:51,208 views 31120 12244 About page accessed
 INFO 2024-05-04 12:57:51,208 basehttp 31120 12244 "GET /about/ HTTP/1.1" 200 1580
 INFO 2024-05-04 12:57:52,213 views 31120 12244 Index page accessed
 INFO 2024-05-04 12:57:52,214 basehttp 31120 12244 "GET / HTTP/1.1" 200 1245
+INFO 2024-05-05 17:05:15,411 autoreload 16540 32060 Watching for file changes with StatReloader
+INFO 2024-05-05 17:06:35,106 autoreload 13556 42400 Watching for file changes with StatReloader
+INFO 2024-05-05 17:06:57,000 autoreload 27680 37068 Watching for file changes with StatReloader
+INFO 2024-05-05 17:06:58,598 views 27680 9724 Index page accessed
+INFO 2024-05-05 17:06:58,599 basehttp 27680 9724 "GET / HTTP/1.1" 200 1245
+INFO 2024-05-05 17:09:43,975 autoreload 27680 37068 C:\Users\Егор\PycharmProjects\Project_hw\myproject\hwapp\views.py changed, reloading.
+INFO 2024-05-05 17:09:44,437 autoreload 36560 40948 Watching for file changes with StatReloader
+INFO 2024-05-05 17:09:44,696 views 36560 23508 Index page accessed
+INFO 2024-05-05 17:09:44,697 basehttp 36560 23508 "GET / HTTP/1.1" 200 1364
+INFO 2024-05-05 17:09:46,012 basehttp 36560 23508 "GET /shop/ HTTP/1.1" 200 11

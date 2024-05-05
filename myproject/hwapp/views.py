@@ -21,6 +21,7 @@ def index(request):
                    <ul class="nav nav-pills justify-content-end align-items-end">
                        <li class="nav-item"><a href="" class="nav-link">Главная страница</a></li>
                        <li class="nav-item"><a href="/about/" class="nav-link">О себе</a></li>
+                       <li class="nav-item"><a href="/shop/" class="nav-link">Интернет магазин</a></li>
                    </ul>
                    <h1 class="heading">Главная страница</h1>
                    <h2 class="heading">Первый сайт на Django</h2>
@@ -53,6 +54,7 @@ def about(request):
                     <ul class="nav nav-pills justify-content-end align-items-end">
                         <li class="nav-item"><a href="/" class="nav-link">Главная страница</a></li>
                         <li class="nav-item"><a href="" class="nav-link">О себе</a></li>
+                        <li class="nav-item"><a href="/shop/" class="nav-link">Интернет магазин</a></li>
                     </ul>
                 <div class="top">
                     <h1 class="title">Мельниченко Егор</h1>
