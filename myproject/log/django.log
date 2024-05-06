@@ -359,3 +359,7 @@ INFO 2024-05-05 17:09:44,437 autoreload 36560 40948 Watching for file changes wi
 INFO 2024-05-05 17:09:44,696 views 36560 23508 Index page accessed
 INFO 2024-05-05 17:09:44,697 basehttp 36560 23508 "GET / HTTP/1.1" 200 1364
 INFO 2024-05-05 17:09:46,012 basehttp 36560 23508 "GET /shop/ HTTP/1.1" 200 11
+INFO 2024-05-05 18:39:14,464 autoreload 39916 13548 Watching for file changes with StatReloader
+INFO 2024-05-05 18:39:19,380 views 39916 35412 Index page accessed
+INFO 2024-05-05 18:39:19,381 basehttp 39916 35412 "GET / HTTP/1.1" 200 1364
+INFO 2024-05-05 18:39:22,793 basehttp 39916 35412 "GET /shop/ HTTP/1.1" 200 11
