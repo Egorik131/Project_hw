@@ -16,9 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from hwapp.views import index
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', include('hwapp.urls')),
+    path('main/', include('hwapp.urls')),
+    path('main/about/', include('hwapp.urls')),
     path('shop/', include('hw2app.urls')),
+    path('shop/orders/', include('hw2app.urls')),
+    path('', index),
 ]

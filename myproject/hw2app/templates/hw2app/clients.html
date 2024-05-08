@@ -1,0 +1,21 @@
+{% extends 'hw2app/base.html' %}
+
+{% block title %}{{ client.name }}{% endblock %}
+
+{% block content %}
+
+<ul class="nav nav-pills justify-content-end align-items-end">
+    <li class="nav-item"><a href="/shop/" class="nav-link">Интернет магазин</a></li>
+</ul>
+
+<h3>{{ client_id }}</h3>
+
+<ul>
+    <li> Имя: {{ client.name }}</li>
+    <li> E-mail: {{ client.email }}</li>
+    <li> Телефон: {{ client.phone }}</li>
+    <li> Адрес: {{ client.address }}</li>
+    <li> Дата регистрация: {{ client.date_reg }}</li>
+</ul>
+
+{% endblock %}

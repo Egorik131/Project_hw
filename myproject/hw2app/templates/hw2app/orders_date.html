@@ -1,0 +1,39 @@
+{% extends 'hw2app/base.html' %}
+
+{% block title %} Все заказы клиента {% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <ul class="nav nav-pills justify-content-end align-items-end">
+        <li class="nav-item"><a href="/shop/" class="nav-link">Интернет магазин</a></li>
+    </ul>
+    <div class="top">
+        <h1 class="title">Все заказы клиента № {{ client.id }} за {{ days }}
+            {% if days == 1 %}
+            день
+            {% elif days >= 2 and days <= 4 %}
+            дня
+            {% else %}
+            дней
+            {% endif %} </h1>
+    </div>
+    <h3>Имя клиента: {{ client.name }}</h3>
+
+    <table CELLSPACING="10">
+        <tr>
+            <td>ID</td>
+            <td>Общая стоимость</td>
+            <td>Дата заказа</td>
+            <td>Id товара</td>
+        </tr>
+        {% for order in orders %}
+        <tr>
+            <td>{{ order.id }}</td>
+            <td>{{ order.total_price }}</td>
+            <td>{{ order.date_ordered }}</td>
+            <td>{{ order.product }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

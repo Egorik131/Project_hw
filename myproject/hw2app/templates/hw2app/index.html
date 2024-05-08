@@ -1,0 +1,21 @@
+{% extends 'hw2app/base.html' %}
+
+{% block title %} Интернет-магазин {% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <ul class="nav nav-pills justify-content-end align-items-end">
+        <li class="nav-item"><a href="/main/" class="nav-link">Главная страница</a></li>
+        <li class="nav-item"><a href="/main/about/" class="nav-link">О себе</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Интернет магазин</a></li>
+        <li class="nav-item"><a href="/shop/all_clients/" class="nav-link">Информация о клиентах</a></li>
+        <li class="nav-item"><a href="/shop/clients/1/" class="nav-link">Информация по клиенту (по умолчанию Id = 1)</a></li>
+        <li class="nav-item"><a href="/shop/client_orders/6/" class="nav-link">Заказы по клиенту (по умолчанию Id = 6)</a></li>
+        <li class="nav-item"><a href="/shop/orders_date/6/7/" class="nav-link">Заказы по клиенту и дате (по умолчанию Id = 6 за 7 дней)</a></li>
+    </ul>
+
+    <h1 class="heading">Интернет-магазин</h1>
+    <h2 class="heading">Разработка интернет-магазина</h2>
+    <p> Это страница моего первого интернет-магазина на Django.</p>
+</div>
+{% endblock %}

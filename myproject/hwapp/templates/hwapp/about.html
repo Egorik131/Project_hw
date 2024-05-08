@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} О себе {% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <ul class="nav nav-pills justify-content-end align-items-end">
+        <li class="nav-item"><a href="/main/" class="nav-link">Главная страница</a></li>
+        <li class="nav-item"><a href="" class="nav-link">О себе</a></li>
+        <li class="nav-item"><a href="/shop/" class="nav-link">Интернет магазин</a></li>
+    </ul>
+    <div class="top">
+        <h1 class="title">Мельниченко Егор</h1>
+    </div>
+    <div class="about">
+        <h2 class="heading">О себе</h2>
+        <p class="description">
+            Руководитель IT-компании. Люблю получать новые знания.<br>
+            Люблю путешествовать и заниматься активными видами спорта.
+        </p>
+    </div>
+</div>
+{% endblock %}
+
