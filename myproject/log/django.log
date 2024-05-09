@@ -7623,3 +7623,62 @@ INFO 2024-05-09 12:48:21,361 basehttp 35300 10664 "GET /shop/add_product/ HTTP/1
 INFO 2024-05-09 12:48:44,118 basehttp 35300 10664 "POST /shop/add_product/ HTTP/1.1" 200 614
 INFO 2024-05-09 12:49:20,591 autoreload 35300 9616 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
 INFO 2024-05-09 12:49:21,124 autoreload 32980 5356 Watching for file changes with StatReloader
+INFO 2024-05-09 13:11:52,340 autoreload 32980 5356 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\myproject\settings.py changed, reloading.
+INFO 2024-05-09 13:11:52,841 autoreload 23988 34048 Watching for file changes with StatReloader
+INFO 2024-05-09 13:34:48,173 autoreload 13744 33000 Watching for file changes with StatReloader
+INFO 2024-05-09 13:34:50,990 views 13744 17352 Index page accessed
+INFO 2024-05-09 13:34:50,999 basehttp 13744 17352 "GET / HTTP/1.1" 200 941
+INFO 2024-05-09 13:34:53,323 basehttp 13744 17352 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 13:34:55,458 basehttp 13744 17352 "GET /shop/add_product/ HTTP/1.1" 200 1754
+INFO 2024-05-09 13:35:22,576 basehttp 13744 17352 "POST /shop/add_product/ HTTP/1.1" 200 1879
+INFO 2024-05-09 13:38:52,583 autoreload 13744 33000 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py changed, reloading.
+INFO 2024-05-09 13:38:53,147 autoreload 25100 7532 Watching for file changes with StatReloader
+INFO 2024-05-09 13:38:57,957 basehttp 25100 27088 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 13:38:58,938 basehttp 25100 27088 "GET /shop/add_product/ HTTP/1.1" 200 1754
+INFO 2024-05-09 13:39:18,859 basehttp 25100 27088 "POST /shop/add_product/ HTTP/1.1" 200 1879
+INFO 2024-05-09 13:42:18,829 basehttp 25100 27088 "POST /shop/add_product/ HTTP/1.1" 200 1909
+INFO 2024-05-09 13:42:40,993 basehttp 25100 27088 "POST /shop/add_product/ HTTP/1.1" 200 1963
+INFO 2024-05-09 13:42:49,016 basehttp 25100 27088 "POST /shop/add_product/ HTTP/1.1" 200 1963
+INFO 2024-05-09 13:42:57,550 basehttp 25100 27088 "POST /shop/add_product/ HTTP/1.1" 200 1963
+INFO 2024-05-09 13:43:11,784 basehttp 25100 27088 "POST /shop/add_product/ HTTP/1.1" 200 1963
+INFO 2024-05-09 13:43:18,544 basehttp 25100 27088 "POST /shop/add_product/ HTTP/1.1" 200 1963
+INFO 2024-05-09 13:48:19,261 autoreload 25100 7532 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py changed, reloading.
+INFO 2024-05-09 13:48:19,785 autoreload 29652 26536 Watching for file changes with StatReloader
+INFO 2024-05-09 13:50:07,520 autoreload 29652 26536 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py changed, reloading.
+INFO 2024-05-09 13:50:08,089 autoreload 4904 29172 Watching for file changes with StatReloader
+INFO 2024-05-09 13:50:30,950 autoreload 4904 29172 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py changed, reloading.
+INFO 2024-05-09 13:50:31,402 autoreload 36240 25816 Watching for file changes with StatReloader
+INFO 2024-05-09 13:50:40,936 autoreload 36240 25816 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py changed, reloading.
+INFO 2024-05-09 13:50:41,499 autoreload 28832 29644 Watching for file changes with StatReloader
+ERROR 2024-05-09 13:53:19,085 log 28832 17656 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 68, in product_form
+    product = Product(name=name, description=description, price=price, amount=quantity, img_file=img_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Product() got unexpected keyword arguments: 'amount'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 70, in product_form
+    product = Product(name=name, description=description, price=price, amount=quantity)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Product() got unexpected keyword arguments: 'amount'
+ERROR 2024-05-09 13:53:19,089 basehttp 28832 17656 "POST /shop/add_product/ HTTP/1.1" 500 91736
+INFO 2024-05-09 13:54:17,761 autoreload 28832 29644 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py changed, reloading.
+INFO 2024-05-09 13:54:18,217 autoreload 28772 30560 Watching for file changes with StatReloader
+INFO 2024-05-09 13:54:21,763 basehttp 28772 40892 "POST /shop/add_product/ HTTP/1.1" 200 614
+INFO 2024-05-09 13:54:28,150 basehttp 28772 40892 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 13:54:30,034 basehttp 28772 40892 "GET /shop/add_product/ HTTP/1.1" 200 1784
+INFO 2024-05-09 13:54:44,253 basehttp 28772 40892 "POST /shop/add_product/ HTTP/1.1" 200 614
+INFO 2024-05-09 13:56:28,753 autoreload 28772 30560 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py changed, reloading.

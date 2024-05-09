@@ -4,6 +4,7 @@ from django.http import HttpResponse
 from .models import Client, Order, Product
 from django.utils import timezone
 from .forms import ProductForm
+from django.core.files.storage import FileSystemStorage
 
 logger = logging.getLogger(__name__)
 
@@ -53,15 +54,19 @@ def get_orders_on_date(request, client_id, days):
 
 def product_form(request):
     if request.method == 'POST':
-        form = ProductForm(request.POST)
+        form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
             name = form.cleaned_data['name']
             description = form.cleaned_data['description']
             price = form.cleaned_data['price']
             quantity = form.cleaned_data['quantity']
             date_in = form.cleaned_data['date_in']
+            try:
+                img_file = form.cleaned_data['img_file']
+                product = Product(name=name, description=description, price=price, quantity=quantity, img_file=img_file)
+            except:
+                product = Product(name=name, description=description, price=price, quantity=quantity)
             # Делаем что-то с данными
-            product = Product(name=name, description=description, price=price, quantity=quantity, date_in=date_in)
             product.save()
             logger.info(f'Получили {name=}, {description=}, {price=}, {quantity=}, {date_in=}.')
             return render(request, 'hw2app/product_form.html', {'answer': "Продукт добавлен"})
