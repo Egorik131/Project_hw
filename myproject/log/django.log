@@ -6949,3 +6949,677 @@ INFO 2024-05-08 10:25:48,733 basehttp 33240 33304 "GET /shop/ HTTP/1.1" 200 1632
 INFO 2024-05-08 10:25:51,795 basehttp 33240 33304 "GET /shop/orders_date/6/7/ HTTP/1.1" 200 5134
 INFO 2024-05-08 10:26:59,148 basehttp 33240 33304 "GET /shop/ HTTP/1.1" 200 1632
 INFO 2024-05-08 10:27:01,217 basehttp 33240 33304 "GET /shop/ HTTP/1.1" 200 1626
+INFO 2024-05-09 12:06:03,236 autoreload 34792 7680 Watching for file changes with StatReloader
+INFO 2024-05-09 12:08:52,179 autoreload 38656 30312 Watching for file changes with StatReloader
+INFO 2024-05-09 12:09:29,148 autoreload 38656 30312 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\urls.py changed, reloading.
+INFO 2024-05-09 12:09:29,605 autoreload 40220 41492 Watching for file changes with StatReloader
+INFO 2024-05-09 12:09:31,295 views 40220 26928 Index page accessed
+INFO 2024-05-09 12:09:31,319 basehttp 40220 26928 "GET / HTTP/1.1" 200 941
+INFO 2024-05-09 12:09:34,649 basehttp 40220 26928 "GET /shop/ HTTP/1.1" 200 1742
+ERROR 2024-05-09 12:09:37,380 log 40220 26928 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: hw2gapp/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 70, in product_form
+    return render(request, 'hw2app/product_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: hw2gapp/base.html
+ERROR 2024-05-09 12:09:37,384 basehttp 40220 26928 "GET /shop/add_product/ HTTP/1.1" 500 135726
+ERROR 2024-05-09 12:10:12,808 log 40220 26928 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: hw2gapp/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 70, in product_form
+    return render(request, 'hw2app/product_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: hw2gapp/base.html
+ERROR 2024-05-09 12:10:12,812 basehttp 40220 26928 "GET /shop/add_product/ HTTP/1.1" 500 135863
+INFO 2024-05-09 12:10:13,632 basehttp 40220 26928 "GET /shop/add_product/ HTTP/1.1" 200 1179
+INFO 2024-05-09 12:11:14,802 basehttp 40220 26928 "GET /shop/add_product/ HTTP/1.1" 200 1179
+INFO 2024-05-09 12:11:15,676 basehttp 40220 26928 "GET /shop/add_product/ HTTP/1.1" 200 1249
+INFO 2024-05-09 12:11:43,842 basehttp 40220 26928 "GET /shop/add_product/ HTTP/1.1" 200 1249
+INFO 2024-05-09 12:11:44,814 basehttp 40220 26928 "GET /shop/add_product/ HTTP/1.1" 200 1257
+INFO 2024-05-09 12:12:39,325 basehttp 40220 26928 "GET /shop/add_product/ HTTP/1.1" 200 1264
+ERROR 2024-05-09 12:13:20,157 log 40220 26928 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 64, in product_form
+    product = Product(name=name, description=description, price=price, quantity=quantity, date_in=date_in)
+                                                                                                  ^^^^^^^
+NameError: name 'date_in' is not defined
+ERROR 2024-05-09 12:13:20,158 basehttp 40220 26928 "POST /shop/add_product/ HTTP/1.1" 500 71522
+INFO 2024-05-09 12:14:19,364 autoreload 40220 41492 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py changed, reloading.
+INFO 2024-05-09 12:14:19,846 autoreload 11496 35500 Watching for file changes with StatReloader
+ERROR 2024-05-09 12:14:21,666 log 11496 9064 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 62, in product_form
+    date_in = form.cleaned_data['date_in']
+              ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'date_in'
+ERROR 2024-05-09 12:14:21,667 basehttp 11496 9064 "POST /shop/add_product/ HTTP/1.1" 500 71197
+INFO 2024-05-09 12:14:59,113 autoreload 11496 35500 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py changed, reloading.
+INFO 2024-05-09 12:14:59,641 autoreload 35180 19352 Watching for file changes with StatReloader
+ERROR 2024-05-09 12:15:01,335 log 35180 36300 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 62, in product_form
+    date_in = form.cleaned_data['date_in']
+              ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'date_in'
+ERROR 2024-05-09 12:15:01,337 basehttp 35180 36300 "POST /shop/add_product/ HTTP/1.1" 500 71206
+INFO 2024-05-09 12:15:44,040 autoreload 35180 19352 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
+INFO 2024-05-09 12:15:44,519 autoreload 31704 31368 Watching for file changes with StatReloader
+INFO 2024-05-09 12:27:47,259 autoreload 15668 23500 Watching for file changes with StatReloader
+INFO 2024-05-09 12:28:16,097 autoreload 15668 23500 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
+INFO 2024-05-09 12:28:16,527 autoreload 15480 37400 Watching for file changes with StatReloader
+INFO 2024-05-09 12:29:13,010 autoreload 15480 37400 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
+INFO 2024-05-09 12:29:13,467 autoreload 31404 34968 Watching for file changes with StatReloader
+INFO 2024-05-09 12:29:16,332 views 31404 37404 Index page accessed
+INFO 2024-05-09 12:29:16,338 basehttp 31404 37404 "GET / HTTP/1.1" 200 941
+INFO 2024-05-09 12:29:22,238 basehttp 31404 37404 "POST /shop/add_product/ HTTP/1.1" 200 1560
+ERROR 2024-05-09 12:30:59,394 log 31404 37404 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 64, in product_form
+    product = Product(name=name, description=description, price=price, quantity=quantity, date_in=date_in)
+                                                                                                  ^^^^^^^
+NameError: name 'date_in' is not defined
+ERROR 2024-05-09 12:30:59,396 basehttp 31404 37404 "POST /shop/add_product/ HTTP/1.1" 500 71667
+INFO 2024-05-09 12:31:25,982 autoreload 31404 34968 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py changed, reloading.
+INFO 2024-05-09 12:31:26,482 autoreload 41828 33092 Watching for file changes with StatReloader
+ERROR 2024-05-09 12:31:32,608 log 41828 13304 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 65, in product_form
+    product.save()
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+INFO 2024-05-09 12:31:32,614 basehttp 41828 13304 - Broken pipe from ('127.0.0.1', 59058)
+ERROR 2024-05-09 12:31:38,246 log 41828 8504 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 65, in product_form
+    product.save()
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+INFO 2024-05-09 12:31:38,249 basehttp 41828 8504 - Broken pipe from ('127.0.0.1', 59059)
+ERROR 2024-05-09 12:31:43,867 log 41828 19380 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 65, in product_form
+    product.save()
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-05-09 12:31:43,870 basehttp 41828 19380 "POST /shop/add_product/ HTTP/1.1" 500 131795
+INFO 2024-05-09 12:32:00,781 basehttp 41828 19380 "POST /shop/add_product/ HTTP/1.1" 200 445
+INFO 2024-05-09 12:34:08,574 autoreload 41828 33092 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
+INFO 2024-05-09 12:34:09,044 autoreload 28348 5148 Watching for file changes with StatReloader
+ERROR 2024-05-09 12:34:13,667 log 28348 14464 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 70, in product_form
+    return render(request, 'hw2app/product_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\utils.py", line 87, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\utils.py", line 55, in render
+    return mark_safe(renderer.render(template, context))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\renderers.py", line 29, in render
+    return template.render(context, request=request).strip()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1065, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1042, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\utils.py", line 79, in __str__
+    return self.as_widget()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\boundfield.py", line 95, in as_widget
+    attrs = self.build_widget_attrs(attrs, widget)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\boundfield.py", line 270, in build_widget_attrs
+    widget.use_required_attribute(self.initial)
+                                  ^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\boundfield.py", line 264, in initial
+    return self.form.get_initial_for_field(self.field, self.name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\forms.py", line 416, in get_initial_for_field
+    value = value()
+            ^^^^^^^
+TypeError: timezone() missing required argument 'offset' (pos 1)
+ERROR 2024-05-09 12:34:13,678 basehttp 28348 14464 "POST /shop/add_product/ HTTP/1.1" 500 278543
+INFO 2024-05-09 12:34:36,087 autoreload 28348 5148 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
+INFO 2024-05-09 12:34:36,565 autoreload 28960 13500 Watching for file changes with StatReloader
+INFO 2024-05-09 12:34:37,084 basehttp 28960 30184 "POST /shop/add_product/ HTTP/1.1" 200 1560
+INFO 2024-05-09 12:36:39,496 autoreload 28960 13500 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
+INFO 2024-05-09 12:36:39,965 autoreload 31148 11616 Watching for file changes with StatReloader
+INFO 2024-05-09 12:36:54,543 autoreload 31148 11616 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
+INFO 2024-05-09 12:36:55,027 autoreload 33260 32340 Watching for file changes with StatReloader
+ERROR 2024-05-09 12:36:59,390 log 33260 27772 Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py", line 70, in product_form
+    return render(request, 'hw2app/product_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 909, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\utils.py", line 87, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\utils.py", line 55, in render
+    return mark_safe(renderer.render(template, context))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\renderers.py", line 29, in render
+    return template.render(context, request=request).strip()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1065, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\template\base.py", line 1042, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\utils.py", line 79, in __str__
+    return self.as_widget()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\boundfield.py", line 95, in as_widget
+    attrs = self.build_widget_attrs(attrs, widget)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\boundfield.py", line 270, in build_widget_attrs
+    widget.use_required_attribute(self.initial)
+                                  ^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\boundfield.py", line 264, in initial
+    return self.form.get_initial_for_field(self.field, self.name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\顯闉\PycharmProjects\Project_hw\.venv\Lib\site-packages\django\forms\forms.py", line 416, in get_initial_for_field
+    value = value()
+            ^^^^^^^
+TypeError: timezone() missing required argument 'offset' (pos 1)
+ERROR 2024-05-09 12:36:59,401 basehttp 33260 27772 "POST /shop/add_product/ HTTP/1.1" 500 278534
+INFO 2024-05-09 12:38:01,928 autoreload 33260 32340 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
+INFO 2024-05-09 12:38:02,388 autoreload 42364 36364 Watching for file changes with StatReloader
+INFO 2024-05-09 12:39:58,237 autoreload 42996 36456 Watching for file changes with StatReloader
+INFO 2024-05-09 12:40:48,993 autoreload 35580 22492 Watching for file changes with StatReloader
+INFO 2024-05-09 12:40:52,851 basehttp 35580 35356 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 12:40:53,877 basehttp 35580 35356 "GET /shop/add_product/ HTTP/1.1" 200 1437
+INFO 2024-05-09 12:41:42,767 basehttp 35580 35356 "POST /shop/add_product/ HTTP/1.1" 200 445
+INFO 2024-05-09 12:42:22,699 autoreload 35580 22492 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
+INFO 2024-05-09 12:42:23,166 autoreload 41768 32484 Watching for file changes with StatReloader
+INFO 2024-05-09 12:42:24,762 basehttp 41768 36376 "POST /shop/add_product/ HTTP/1.1" 200 445
+INFO 2024-05-09 12:42:26,475 basehttp 41768 36376 "GET /shop/add_product/ HTTP/1.1" 200 1437
+INFO 2024-05-09 12:42:44,345 basehttp 41768 36376 "POST /shop/add_product/ HTTP/1.1" 200 445
+INFO 2024-05-09 12:46:53,919 basehttp 41768 36376 "POST /shop/add_product/ HTTP/1.1" 200 614
+INFO 2024-05-09 12:46:56,228 basehttp 41768 36376 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 12:47:02,747 basehttp 41768 36376 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 12:47:07,322 basehttp 41768 36376 "GET /shop/all_clients/ HTTP/1.1" 200 4587
+INFO 2024-05-09 12:47:08,770 basehttp 41768 36376 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 12:47:11,020 basehttp 41768 36376 "GET /shop/clients/1/ HTTP/1.1" 200 791
+INFO 2024-05-09 12:47:12,196 basehttp 41768 36376 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 12:47:14,208 basehttp 41768 36376 "GET /shop/client_orders/6/ HTTP/1.1" 200 5248
+INFO 2024-05-09 12:47:16,892 basehttp 41768 36376 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 12:47:19,362 basehttp 41768 36376 "GET /shop/orders_date/6/7/ HTTP/1.1" 200 5149
+INFO 2024-05-09 12:47:20,906 basehttp 41768 36376 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 12:47:22,413 basehttp 41768 36376 "GET /shop/add_product/ HTTP/1.1" 200 1606
+INFO 2024-05-09 12:48:17,547 basehttp 41768 36376 "GET /shop/add_product/ HTTP/1.1" 200 1606
+INFO 2024-05-09 12:48:18,389 autoreload 41768 32484 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
+INFO 2024-05-09 12:48:18,868 autoreload 35300 9616 Watching for file changes with StatReloader
+INFO 2024-05-09 12:48:19,601 basehttp 35300 10664 "GET /shop/add_product/ HTTP/1.1" 200 1597
+INFO 2024-05-09 12:48:21,361 basehttp 35300 10664 "GET /shop/add_product/ HTTP/1.1" 200 1597
+INFO 2024-05-09 12:48:44,118 basehttp 35300 10664 "POST /shop/add_product/ HTTP/1.1" 200 614
+INFO 2024-05-09 12:49:20,591 autoreload 35300 9616 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\forms.py changed, reloading.
+INFO 2024-05-09 12:49:21,124 autoreload 32980 5356 Watching for file changes with StatReloader

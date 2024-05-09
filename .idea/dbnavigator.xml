@@ -27,7 +27,11 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="4762a267-2cf3-497b-901c-f534a85a8dea" object-ref="schemas/main/tables/hw2app_order" />
+      <object connection-id="4762a267-2cf3-497b-901c-f534a85a8dea" object-ref="schemas/main/tables/hw2app_client" />
+      <object connection-id="4762a267-2cf3-497b-901c-f534a85a8dea" object-ref="schemas/main/tables/hw2app_product" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="4762a267-2cf3-497b-901c-f534a85a8dea" />
@@ -69,7 +73,7 @@
           <deprecated-pwd value="" />
         </database>
         <properties>
-          <auto-commit value="false" />
+          <auto-commit value="true" />
         </properties>
         <ssh-settings>
           <active value="false" />
@@ -148,7 +152,7 @@
           <description value="" />
           <database-type value="SQLITE" />
           <config-type value="BASIC" />
-          <database-version value="9999.0" />
+          <database-version value="3.44" />
           <driver-source value="BUNDLED" />
           <driver-library value="" />
           <driver value="" />

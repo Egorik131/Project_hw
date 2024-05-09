@@ -3,6 +3,7 @@ import logging
 from django.http import HttpResponse
 from .models import Client, Order, Product
 from django.utils import timezone
+from .forms import ProductForm
 
 logger = logging.getLogger(__name__)
 
@@ -17,10 +18,12 @@ def all_orders(request, order_id):
     order = get_object_or_404(Order, pk=order_id)
     return render(request, 'hw2app/orders_date.html', {'order': order})
 
+
 def get_clients(request):
     clients = Client.objects.all()
     context = {'clients': clients, 'name': 'Клиенты'}
     return render(request, 'hw2app/all_clients.html', context)
+
 
 def get_client_on_id(request, client_id):
     client = get_object_or_404(Client, pk=client_id)
@@ -47,3 +50,21 @@ def get_orders_on_date(request, client_id, days):
     context = {'client': client, 'orders': orders, 'days': days}
     return render(request, 'hw2app/orders_date.html', context)
 
+
+def product_form(request):
+    if request.method == 'POST':
+        form = ProductForm(request.POST)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            description = form.cleaned_data['description']
+            price = form.cleaned_data['price']
+            quantity = form.cleaned_data['quantity']
+            date_in = form.cleaned_data['date_in']
+            # Делаем что-то с данными
+            product = Product(name=name, description=description, price=price, quantity=quantity, date_in=date_in)
+            product.save()
+            logger.info(f'Получили {name=}, {description=}, {price=}, {quantity=}, {date_in=}.')
+            return render(request, 'hw2app/product_form.html', {'answer': "Продукт добавлен"})
+    else:
+        form = ProductForm()
+    return render(request, 'hw2app/product_form.html', {'form': form})
