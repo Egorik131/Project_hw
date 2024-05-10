@@ -25,4 +25,6 @@ urlpatterns = [
     path('shop/', include('hw2app.urls')),
     path('shop/orders/', include('hw2app.urls')),
     path('', index),
+    # path('__debug__/', include("debug_toolbar.urls")),
+
 ]
