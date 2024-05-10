@@ -7682,3 +7682,270 @@ INFO 2024-05-09 13:54:28,150 basehttp 28772 40892 "GET /shop/ HTTP/1.1" 200 1757
 INFO 2024-05-09 13:54:30,034 basehttp 28772 40892 "GET /shop/add_product/ HTTP/1.1" 200 1784
 INFO 2024-05-09 13:54:44,253 basehttp 28772 40892 "POST /shop/add_product/ HTTP/1.1" 200 614
 INFO 2024-05-09 13:56:28,753 autoreload 28772 30560 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\views.py changed, reloading.
+INFO 2024-05-09 13:56:29,357 autoreload 41904 42004 Watching for file changes with StatReloader
+INFO 2024-05-09 13:56:41,928 basehttp 41904 33860 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 13:57:18,911 basehttp 41904 33860 "GET /shop/clients/1/ HTTP/1.1" 200 791
+INFO 2024-05-09 14:01:43,527 basehttp 41904 33860 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 14:01:45,169 basehttp 41904 33860 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 14:01:45,819 basehttp 41904 33860 "GET /shop/all_clients/ HTTP/1.1" 200 4587
+INFO 2024-05-09 14:01:47,157 basehttp 41904 33860 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 14:01:48,675 basehttp 41904 33860 "GET /shop/client_orders/6/ HTTP/1.1" 200 5248
+INFO 2024-05-09 14:01:52,738 basehttp 41904 33860 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-09 14:01:56,240 basehttp 41904 33860 "GET /shop/orders_date/6/7/ HTTP/1.1" 200 5149
+INFO 2024-05-09 14:01:58,933 basehttp 41904 33860 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-10 11:33:11,124 autoreload 14484 14312 Watching for file changes with StatReloader
+INFO 2024-05-10 11:33:17,919 basehttp 14484 30440 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-10 11:33:17,980 basehttp 14484 30440 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-05-10 11:33:27,209 basehttp 14484 30440 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-10 11:33:27,223 basehttp 14484 30440 "GET /admin/ HTTP/1.1" 200 5533
+INFO 2024-05-10 11:34:04,474 basehttp 14484 30440 "GET /admin/ HTTP/1.1" 200 5533
+INFO 2024-05-10 11:34:04,782 autoreload 14484 14312 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\myproject\settings.py changed, reloading.
+INFO 2024-05-10 11:34:05,284 autoreload 28028 10144 Watching for file changes with StatReloader
+INFO 2024-05-10 11:34:05,440 basehttp 28028 26988 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-05-10 11:38:11,144 basehttp 28028 26988 "GET /admin/auth/group/add/ HTTP/1.1" 200 12874
+INFO 2024-05-10 11:38:11,180 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:38:36,369 basehttp 28028 26988 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-05-10 11:38:36,383 basehttp 28028 26988 "GET /admin/auth/group/add/ HTTP/1.1" 200 13181
+INFO 2024-05-10 11:38:36,410 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:39:36,487 basehttp 28028 26988 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-05-10 11:39:36,502 basehttp 28028 26988 "GET /admin/auth/group/add/ HTTP/1.1" 200 13171
+INFO 2024-05-10 11:39:36,525 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:40:08,151 basehttp 28028 26988 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-05-10 11:40:08,192 basehttp 28028 26988 "GET /admin/auth/group/ HTTP/1.1" 200 10240
+INFO 2024-05-10 11:40:08,219 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:40:12,931 basehttp 28028 26988 "GET /admin/auth/user/add/ HTTP/1.1" 200 11238
+INFO 2024-05-10 11:40:12,955 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:40:41,549 basehttp 28028 26988 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-05-10 11:40:41,562 basehttp 28028 26988 "GET /admin/auth/user/add/ HTTP/1.1" 200 11548
+INFO 2024-05-10 11:40:41,588 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:41:00,880 basehttp 28028 26988 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-05-10 11:41:00,891 basehttp 28028 26988 "GET /admin/auth/user/add/ HTTP/1.1" 200 11548
+INFO 2024-05-10 11:41:00,910 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:41:25,429 basehttp 28028 26988 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-05-10 11:41:25,472 basehttp 28028 26988 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 23896
+INFO 2024-05-10 11:41:25,500 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:41:36,541 basehttp 28028 26988 "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 2024-05-10 11:41:36,559 basehttp 28028 26988 "GET /admin/auth/user/ HTTP/1.1" 200 14114
+INFO 2024-05-10 11:41:36,585 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:41:38,930 basehttp 28028 26988 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23598
+INFO 2024-05-10 11:41:38,954 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:41:46,632 basehttp 28028 26988 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-05-10 11:41:46,647 basehttp 28028 26988 "GET /admin/auth/user/ HTTP/1.1" 200 14114
+INFO 2024-05-10 11:41:46,673 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:41:48,714 basehttp 28028 26988 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 23598
+INFO 2024-05-10 11:41:48,741 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:41:57,206 basehttp 28028 26988 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2024-05-10 11:41:57,219 basehttp 28028 26988 "GET /admin/auth/user/ HTTP/1.1" 200 14114
+INFO 2024-05-10 11:41:57,246 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:42:00,410 basehttp 28028 26988 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 23615
+INFO 2024-05-10 11:42:00,448 basehttp 28028 26988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 11:42:01,464 basehttp 28028 26988 "GET /admin/auth/user/ HTTP/1.1" 200 13892
+INFO 2024-05-10 11:49:18,823 autoreload 28028 10144 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 11:49:19,388 autoreload 16932 37296 Watching for file changes with StatReloader
+INFO 2024-05-10 11:57:50,268 autoreload 16932 37296 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 11:57:50,731 autoreload 15048 33572 Watching for file changes with StatReloader
+INFO 2024-05-10 11:58:52,961 autoreload 15048 33572 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\models.py changed, reloading.
+INFO 2024-05-10 11:58:53,504 autoreload 4812 11900 Watching for file changes with StatReloader
+INFO 2024-05-10 11:58:54,806 autoreload 4812 11900 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 11:58:55,278 autoreload 12572 33784 Watching for file changes with StatReloader
+INFO 2024-05-10 11:59:32,140 autoreload 12572 33784 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 11:59:32,619 autoreload 34144 28500 Watching for file changes with StatReloader
+INFO 2024-05-10 12:00:47,113 autoreload 34144 28500 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:00:47,568 autoreload 38392 11492 Watching for file changes with StatReloader
+INFO 2024-05-10 12:01:15,284 autoreload 38392 11492 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:01:15,743 autoreload 40820 18780 Watching for file changes with StatReloader
+INFO 2024-05-10 12:01:26,168 autoreload 40820 18780 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:01:26,641 autoreload 36632 21892 Watching for file changes with StatReloader
+INFO 2024-05-10 12:02:02,499 autoreload 36632 21892 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:02:02,958 autoreload 15668 29760 Watching for file changes with StatReloader
+INFO 2024-05-10 12:02:12,381 autoreload 15668 29760 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:02:12,864 autoreload 42732 38052 Watching for file changes with StatReloader
+INFO 2024-05-10 12:03:11,712 autoreload 30636 34980 Watching for file changes with StatReloader
+INFO 2024-05-10 12:03:32,326 autoreload 30636 34980 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:03:32,789 autoreload 39228 28896 Watching for file changes with StatReloader
+INFO 2024-05-10 12:05:39,164 basehttp 39228 40436 "GET /admin/auth/user/ HTTP/1.1" 200 14434
+INFO 2024-05-10 12:05:39,185 basehttp 39228 40436 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:05:40,429 basehttp 39228 40436 "GET /admin/auth/user/ HTTP/1.1" 200 14434
+INFO 2024-05-10 12:05:40,465 basehttp 39228 40436 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:05:42,285 basehttp 39228 40436 "GET /admin/hw2app/client/ HTTP/1.1" 200 23039
+INFO 2024-05-10 12:05:42,307 basehttp 39228 40436 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:06:03,673 basehttp 39228 40436 "GET /admin/hw2app/client/12/change/ HTTP/1.1" 200 11164
+INFO 2024-05-10 12:06:03,699 basehttp 39228 40436 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:06:06,209 basehttp 39228 40436 "GET /admin/hw2app/client/ HTTP/1.1" 200 23039
+INFO 2024-05-10 12:06:33,214 basehttp 39228 40436 "GET /admin/hw2app/client/ HTTP/1.1" 200 23039
+INFO 2024-05-10 12:06:33,236 basehttp 39228 40436 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:06:33,812 basehttp 39228 40436 "GET /admin/hw2app/client/ HTTP/1.1" 200 23039
+INFO 2024-05-10 12:06:33,831 basehttp 39228 40436 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:06:34,035 autoreload 39228 28896 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:06:34,546 autoreload 31644 35016 Watching for file changes with StatReloader
+INFO 2024-05-10 12:06:34,732 basehttp 31644 4340 "GET /admin/hw2app/client/ HTTP/1.1" 200 22043
+INFO 2024-05-10 12:06:34,759 basehttp 31644 4340 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:06:37,355 basehttp 31644 4340 "GET /admin/hw2app/client/12/change/ HTTP/1.1" 200 11164
+INFO 2024-05-10 12:06:37,377 basehttp 31644 4340 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:06:55,468 basehttp 31644 4340 "GET /admin/hw2app/client/ HTTP/1.1" 200 22043
+INFO 2024-05-10 12:07:12,725 basehttp 31644 4340 "GET /admin/hw2app/client/12/change/ HTTP/1.1" 200 11164
+INFO 2024-05-10 12:07:12,752 basehttp 31644 4340 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:11:18,588 basehttp 31644 4340 "GET /admin/hw2app/client/12/change/ HTTP/1.1" 200 11164
+INFO 2024-05-10 12:11:18,609 basehttp 31644 4340 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:11:19,343 basehttp 31644 4340 "GET /admin/hw2app/client/12/change/ HTTP/1.1" 200 11164
+INFO 2024-05-10 12:11:19,361 autoreload 31644 35016 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:11:19,861 autoreload 34012 3768 Watching for file changes with StatReloader
+INFO 2024-05-10 12:11:20,205 basehttp 34012 10268 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:11:21,998 basehttp 34012 10268 "GET /admin/hw2app/client/12/change/ HTTP/1.1" 200 11892
+INFO 2024-05-10 12:11:22,017 basehttp 34012 10268 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:11:47,200 basehttp 34012 10268 "GET /admin/hw2app/client/12/change/ HTTP/1.1" 200 11892
+INFO 2024-05-10 12:11:47,220 basehttp 34012 10268 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:11:47,956 autoreload 34012 3768 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:11:48,426 autoreload 22312 40184 Watching for file changes with StatReloader
+INFO 2024-05-10 12:11:48,652 basehttp 22312 34920 "GET /admin/hw2app/client/12/change/ HTTP/1.1" 200 11893
+INFO 2024-05-10 12:11:48,672 basehttp 22312 34920 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:11:49,413 basehttp 22312 34920 "GET /admin/hw2app/client/12/change/ HTTP/1.1" 200 11893
+INFO 2024-05-10 12:11:49,432 basehttp 22312 34920 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:12:16,542 basehttp 22312 34920 "POST /admin/hw2app/client/12/change/ HTTP/1.1" 302 0
+INFO 2024-05-10 12:12:16,575 basehttp 22312 34920 "GET /admin/hw2app/client/ HTTP/1.1" 200 22320
+INFO 2024-05-10 12:12:16,597 basehttp 22312 34920 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:12:57,342 autoreload 22312 40184 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:12:57,886 autoreload 32860 28724 Watching for file changes with StatReloader
+INFO 2024-05-10 12:12:58,048 basehttp 32860 12108 "GET /admin/hw2app/client/ HTTP/1.1" 200 21336
+INFO 2024-05-10 12:12:58,071 basehttp 32860 12108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:12:59,927 basehttp 32860 12108 "GET /admin/hw2app/client/?address=%D0%A1ity1 HTTP/1.1" 200 13825
+INFO 2024-05-10 12:12:59,952 basehttp 32860 12108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:13:01,791 basehttp 32860 12108 "GET /admin/hw2app/client/?address=%D0%A1ity2 HTTP/1.1" 200 13825
+INFO 2024-05-10 12:13:01,813 basehttp 32860 12108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:13:03,202 basehttp 32860 12108 "GET /admin/hw2app/client/?address=%D0%A1ity4 HTTP/1.1" 200 13250
+INFO 2024-05-10 12:13:03,225 basehttp 32860 12108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:13:04,425 basehttp 32860 12108 "GET /admin/hw2app/client/?address=%D0%A1ity5 HTTP/1.1" 200 13831
+INFO 2024-05-10 12:13:04,446 basehttp 32860 12108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:13:05,809 basehttp 32860 12108 "GET /admin/hw2app/client/? HTTP/1.1" 200 21336
+INFO 2024-05-10 12:13:05,834 basehttp 32860 12108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:13:08,408 basehttp 32860 12108 "GET /admin/hw2app/client/12/change/ HTTP/1.1" 200 11885
+INFO 2024-05-10 12:13:08,431 basehttp 32860 12108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:13:27,199 basehttp 32860 12108 "GET /admin/hw2app/client/ HTTP/1.1" 200 21336
+INFO 2024-05-10 12:13:27,226 basehttp 32860 12108 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:14:30,375 autoreload 32860 28724 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:14:30,872 autoreload 15700 31608 Watching for file changes with StatReloader
+INFO 2024-05-10 12:15:05,750 autoreload 15700 31608 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:15:06,204 autoreload 23560 26808 Watching for file changes with StatReloader
+INFO 2024-05-10 12:15:29,861 autoreload 23560 26808 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:15:30,326 autoreload 37924 4956 Watching for file changes with StatReloader
+INFO 2024-05-10 12:15:51,932 autoreload 37924 4956 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:15:52,396 autoreload 11340 25224 Watching for file changes with StatReloader
+INFO 2024-05-10 12:16:54,686 autoreload 11340 25224 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:16:55,146 autoreload 23620 29504 Watching for file changes with StatReloader
+INFO 2024-05-10 12:18:12,706 autoreload 23620 29504 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:18:13,166 autoreload 36508 18476 Watching for file changes with StatReloader
+INFO 2024-05-10 12:18:33,766 autoreload 36508 18476 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:18:34,227 autoreload 4024 22744 Watching for file changes with StatReloader
+INFO 2024-05-10 12:19:25,654 autoreload 4024 22744 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:19:26,126 autoreload 11116 34656 Watching for file changes with StatReloader
+INFO 2024-05-10 12:19:50,976 autoreload 11116 34656 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:19:51,449 autoreload 10820 27756 Watching for file changes with StatReloader
+INFO 2024-05-10 12:19:53,840 basehttp 10820 36192 "GET /admin/hw2app/client/ HTTP/1.1" 200 21643
+INFO 2024-05-10 12:19:53,864 basehttp 10820 36192 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:19:58,778 basehttp 10820 36192 "GET /admin/hw2app/product/ HTTP/1.1" 200 66996
+INFO 2024-05-10 12:19:58,801 basehttp 10820 36192 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:20:06,197 basehttp 10820 36192 "GET /admin/hw2app/product/108/change/ HTTP/1.1" 200 12234
+INFO 2024-05-10 12:20:06,226 basehttp 10820 36192 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+WARNING 2024-05-10 12:20:10,748 log 10820 36192 Not Found: /media/media/products/ph2_2uSJTE7.jpg
+WARNING 2024-05-10 12:20:10,748 basehttp 10820 36192 "GET /media/media/products/ph2_2uSJTE7.jpg HTTP/1.1" 404 2721
+INFO 2024-05-10 12:20:12,584 basehttp 10820 36192 "GET /admin/hw2app/product/108/change/ HTTP/1.1" 200 12234
+INFO 2024-05-10 12:21:02,557 autoreload 10820 27756 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:21:03,049 autoreload 38020 12124 Watching for file changes with StatReloader
+INFO 2024-05-10 12:21:06,046 basehttp 38020 28880 "GET /admin/hw2app/product/108/change/ HTTP/1.1" 200 12533
+INFO 2024-05-10 12:21:06,068 basehttp 38020 28880 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:21:07,652 basehttp 38020 28880 "GET /admin/hw2app/order/ HTTP/1.1" 200 73194
+INFO 2024-05-10 12:21:07,682 basehttp 38020 28880 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:22:20,275 autoreload 38020 12124 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:22:20,871 autoreload 2948 29176 Watching for file changes with StatReloader
+INFO 2024-05-10 12:22:49,741 autoreload 2948 29176 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:22:50,194 autoreload 36952 41340 Watching for file changes with StatReloader
+INFO 2024-05-10 12:22:52,656 basehttp 36952 22840 "GET /admin/hw2app/order/ HTTP/1.1" 200 63573
+INFO 2024-05-10 12:22:52,679 basehttp 36952 22840 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:22:55,198 basehttp 36952 22840 "GET /admin/hw2app/order/500/change/ HTTP/1.1" 200 20879
+INFO 2024-05-10 12:22:55,222 basehttp 36952 22840 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:24:36,661 basehttp 36952 22840 "GET /admin/hw2app/order/500/change/ HTTP/1.1" 200 20879
+INFO 2024-05-10 12:24:36,687 basehttp 36952 22840 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:24:37,271 autoreload 36952 41340 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:24:37,777 autoreload 2432 1192 Watching for file changes with StatReloader
+INFO 2024-05-10 12:25:00,573 autoreload 2432 1192 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:25:01,041 autoreload 18472 39972 Watching for file changes with StatReloader
+INFO 2024-05-10 12:25:49,349 autoreload 11796 37844 Watching for file changes with StatReloader
+INFO 2024-05-10 12:26:11,089 autoreload 11796 37844 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:26:11,550 autoreload 37788 36852 Watching for file changes with StatReloader
+INFO 2024-05-10 12:26:36,397 autoreload 37788 36852 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:26:36,857 autoreload 36916 39684 Watching for file changes with StatReloader
+INFO 2024-05-10 12:26:39,313 basehttp 36916 28968 "GET /admin/hw2app/order/500/change/ HTTP/1.1" 200 18435
+INFO 2024-05-10 12:26:39,349 basehttp 36916 28968 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:30:57,502 basehttp 36916 28968 "GET /admin/hw2app/order/500/change/ HTTP/1.1" 200 18435
+INFO 2024-05-10 12:30:57,528 basehttp 36916 28968 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:30:58,298 autoreload 36916 39684 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:30:58,805 autoreload 41224 2748 Watching for file changes with StatReloader
+INFO 2024-05-10 12:30:59,122 basehttp 41224 14652 "GET /admin/hw2app/product/ HTTP/1.1" 200 67295
+INFO 2024-05-10 12:30:59,151 basehttp 41224 14652 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:31:07,080 basehttp 41224 14652 "GET /admin/hw2app/product/108/change/ HTTP/1.1" 200 13435
+INFO 2024-05-10 12:31:07,101 basehttp 41224 14652 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:31:45,668 basehttp 41224 14652 "GET /admin/hw2app/product/ HTTP/1.1" 200 67295
+INFO 2024-05-10 12:31:45,698 basehttp 41224 14652 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:31:46,266 autoreload 41224 2748 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:31:46,775 autoreload 23084 38652 Watching for file changes with StatReloader
+INFO 2024-05-10 12:32:02,982 basehttp 23084 41944 "POST /admin/hw2app/product/ HTTP/1.1" 302 0
+INFO 2024-05-10 12:32:03,100 basehttp 23084 41944 "GET /admin/hw2app/product/ HTTP/1.1" 200 67294
+INFO 2024-05-10 12:32:03,125 basehttp 23084 41944 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:32:16,821 views 23084 41944 Index page accessed
+INFO 2024-05-10 12:32:16,835 basehttp 23084 41944 "GET / HTTP/1.1" 200 941
+INFO 2024-05-10 12:32:18,524 basehttp 23084 41944 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-10 12:32:19,905 basehttp 23084 41944 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-10 12:32:21,626 basehttp 23084 41944 "GET /shop/all_clients/ HTTP/1.1" 200 4589
+INFO 2024-05-10 12:32:23,402 basehttp 23084 41944 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-10 12:32:24,467 basehttp 23084 41944 "GET /shop/clients/1/ HTTP/1.1" 200 792
+INFO 2024-05-10 12:32:25,583 basehttp 23084 41944 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-10 12:32:26,548 basehttp 23084 41944 "GET /shop/client_orders/6/ HTTP/1.1" 200 5248
+INFO 2024-05-10 12:32:27,556 basehttp 23084 41944 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-10 12:32:28,351 basehttp 23084 41944 "GET /shop/orders_date/6/7/ HTTP/1.1" 200 5149
+INFO 2024-05-10 12:32:29,569 basehttp 23084 41944 "GET /shop/ HTTP/1.1" 200 1757
+INFO 2024-05-10 12:32:31,402 basehttp 23084 41944 "GET /shop/add_product/ HTTP/1.1" 200 1784
+INFO 2024-05-10 12:32:42,171 basehttp 23084 41944 "GET /admin/hw2app/product/ HTTP/1.1" 200 67294
+INFO 2024-05-10 12:33:07,697 basehttp 23084 41944 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-05-10 12:33:09,179 basehttp 23084 41944 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-10 12:33:09,188 basehttp 23084 41944 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-10 12:33:19,711 basehttp 23084 41944 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-10 12:33:19,724 basehttp 23084 41944 "GET /admin/ HTTP/1.1" 200 6122
+INFO 2024-05-10 12:33:22,335 basehttp 23084 41944 "GET /admin/hw2app/client/ HTTP/1.1" 200 13854
+INFO 2024-05-10 12:33:24,402 basehttp 23084 41944 "GET /admin/hw2app/client/12/change/ HTTP/1.1" 200 10740
+INFO 2024-05-10 12:33:24,428 basehttp 23084 41944 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:33:29,220 basehttp 23084 41944 "GET /admin/hw2app/client/ HTTP/1.1" 200 13854
+INFO 2024-05-10 12:33:30,570 basehttp 23084 41944 "GET /admin/hw2app/product/ HTTP/1.1" 200 65957
+INFO 2024-05-10 12:33:30,595 basehttp 23084 41944 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:33:37,449 basehttp 23084 41944 "GET /admin/hw2app/order/ HTTP/1.1" 200 36444
+INFO 2024-05-10 12:34:17,182 basehttp 23084 41944 "GET /admin/hw2app/order/ HTTP/1.1" 200 36444
+INFO 2024-05-10 12:34:17,947 basehttp 23084 41944 "GET /admin/hw2app/order/ HTTP/1.1" 200 36444
+INFO 2024-05-10 12:34:17,955 autoreload 23084 38652 C:\Users\顯闉\PycharmProjects\Project_hw\myproject\hw2app\admin.py changed, reloading.
+INFO 2024-05-10 12:34:18,517 autoreload 35880 41876 Watching for file changes with StatReloader
+INFO 2024-05-10 12:34:18,842 basehttp 35880 40048 "GET /admin/hw2app/order/ HTTP/1.1" 200 42172
+INFO 2024-05-10 12:34:21,868 basehttp 35880 40048 "GET /admin/hw2app/order/?product__id__exact=107 HTTP/1.1" 200 16809
+INFO 2024-05-10 12:34:24,050 basehttp 35880 40048 "GET /admin/hw2app/order/?product__id__exact=103 HTTP/1.1" 200 16809
+INFO 2024-05-10 12:34:24,846 basehttp 35880 40048 "GET /admin/hw2app/order/?product__id__exact=104 HTTP/1.1" 200 16809
+INFO 2024-05-10 12:34:25,507 basehttp 35880 40048 "GET /admin/hw2app/order/?product__id__exact=5 HTTP/1.1" 200 18927
+INFO 2024-05-10 12:34:30,909 basehttp 35880 40048 "GET /admin/hw2app/order/?product__id__exact=10 HTTP/1.1" 200 19053
+INFO 2024-05-10 12:34:31,709 basehttp 35880 40048 "GET /admin/hw2app/order/?product__id__exact=15 HTTP/1.1" 200 19053
+INFO 2024-05-10 12:34:32,714 basehttp 35880 40048 "GET /admin/hw2app/order/?product__id__exact=20 HTTP/1.1" 200 16807
+INFO 2024-05-10 12:34:33,622 basehttp 35880 40048 "GET /admin/hw2app/order/?product__id__exact=30 HTTP/1.1" 200 19058
+INFO 2024-05-10 12:34:35,167 basehttp 35880 40048 "GET /admin/hw2app/order/?product__id__exact=40 HTTP/1.1" 200 19058
+INFO 2024-05-10 12:34:42,377 basehttp 35880 40048 "GET /admin/hw2app/client/ HTTP/1.1" 200 13854
+INFO 2024-05-10 12:34:43,741 basehttp 35880 40048 "GET /admin/hw2app/order/ HTTP/1.1" 200 42172
+INFO 2024-05-10 12:34:44,418 basehttp 35880 40048 "GET /admin/hw2app/product/ HTTP/1.1" 200 65957
+INFO 2024-05-10 12:34:44,440 basehttp 35880 40048 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:34:48,095 basehttp 35880 40048 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-05-10 12:34:49,222 basehttp 35880 40048 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-10 12:34:49,233 basehttp 35880 40048 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-10 12:34:53,026 basehttp 35880 40048 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-10 12:34:53,037 basehttp 35880 40048 "GET /admin/ HTTP/1.1" 200 6326
+INFO 2024-05-10 12:34:55,414 basehttp 35880 40048 "GET /admin/hw2app/client/ HTTP/1.1" 200 21029
+INFO 2024-05-10 12:34:55,433 basehttp 35880 40048 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:35:00,176 basehttp 35880 40048 "GET /admin/hw2app/order/ HTTP/1.1" 200 68388
+INFO 2024-05-10 12:35:00,202 basehttp 35880 40048 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:35:02,707 basehttp 35880 40048 "GET /admin/hw2app/product/ HTTP/1.1" 200 66381
+INFO 2024-05-10 12:35:02,731 basehttp 35880 40048 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:35:05,135 basehttp 35880 40048 "GET /admin/hw2app/product/108/change/ HTTP/1.1" 200 12522
+INFO 2024-05-10 12:35:05,164 basehttp 35880 40048 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 12:35:11,343 basehttp 35880 40048 "POST /admin/logout/ HTTP/1.1" 200 3817

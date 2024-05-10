@@ -28,8 +28,6 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="4762a267-2cf3-497b-901c-f534a85a8dea" object-ref="schemas/main/tables/hw2app_order" />
-      <object connection-id="4762a267-2cf3-497b-901c-f534a85a8dea" object-ref="schemas/main/tables/hw2app_client" />
       <object connection-id="4762a267-2cf3-497b-901c-f534a85a8dea" object-ref="schemas/main/tables/hw2app_product" />
     </open-files>
   </component>
